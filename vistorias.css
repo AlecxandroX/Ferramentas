@@ -1,0 +1,95 @@
+body {
+        font-family: Arial, sans-serif;
+        background-color: #f5f5f5;
+        margin: 0;
+        padding: 0;
+    }
+
+    h1 {
+        background-color: #024f9e; /* Alterado para a cor desejada */
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+    }
+
+    form {
+        background-color: #fff;
+        max-width: 600px;
+        margin: 20px auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        transition: transform 0.2s ease-in-out;
+    }
+
+    form:hover {
+        transform: scale(1.01);
+    }
+
+    label {
+        display: block;
+        margin: 10px 0;
+        font-weight: bold;
+    }
+
+    input[type="date"],
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        width: 100%;
+        padding: 10px;
+        margin: 5px 0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    textarea {
+        height: 100px;
+    }
+
+    select {
+        width: 100%;
+        padding: 10px;
+        margin: 5px 0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    input[type="submit"] {
+        background-color: #07D99E; /* Alterado para a cor desejada */
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+        background-color: #07D99E;
+    }
+    .button {
+        background-color: #07D99E; /* Alterado para a cor desejada */
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        text-decoration: none;
+        display: inline-block;
+    }
+
+    .button:hover {
+        
+        background-color: #07D99E;
+    }
+    
+    .botoes a.button {
+        background-color: #07D99E;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        text-decoration: none;
+        margin: 5px;
+        border-radius: 5px;
+    }

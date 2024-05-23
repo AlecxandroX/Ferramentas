@@ -1,0 +1,266 @@
+/* Reset de estilos padrão */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo do corpo da página */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000; /* Cor de fundo escura para o tema escuro */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  color: #fff; /* Cor do texto para o tema escuro */
+}
+
+/* Estilo do cabeçalho */
+.header {
+  background-color: #3498db;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Estilo do título no cabeçalho */
+.header h1 {
+  color: #fff;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+/* Estilo do nome do usuário logado */
+#user {
+  color: #fff;
+  font-size: 18px;
+}
+
+/* Estilo do menu */
+#menu {
+  background-color: #333; /* Cor de fundo escura para o menu */
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  max-width: 1000px;
+  width: 100%;
+  padding: 20px;
+  margin-top: 20px;
+  color: #fff; /* Cor do texto para o tema escuro */
+}
+
+/* Estilo do título do menu */
+#title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+/* Estilo das linhas do menu */
+.menu-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Estilo dos itens do menu */
+.menu-item {
+  flex: 0 0 calc(20% - 10px);
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #444; /* Cor de fundo escura para os itens do menu */
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  transition: transform 0.3s;
+  color: #fff; /* Cor do texto para o tema escuro */
+}
+
+.menu-item:hover {
+  transform: scale(1.05);
+}
+
+/* Estilo dos links e ícones */
+.menu-item a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff; 
+  text-decoration: none;
+}
+
+/* Estilo dos ícones */
+.menu-item img {
+  max-width: 100%;
+  height: auto;
+  max-height: 80px;
+}
+
+/* Estilo do texto abaixo dos ícones */
+.menu-item span {
+  font-size: 16px;
+  color: #fff;
+  margin-top: 10px;
+}
+
+/* Estilo dos botões */
+.menu-item button {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.menu-item button:hover {
+  background-color: #2980b9;
+}
+
+/* Estilo do rodapé */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #343a40;
+  color: #fff;
+}
+        /* Estilos para o cartão de login */
+#loginCard {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    color: #000;
+    font-family: 'Arial', sans-serif;
+    max-width: 300px;
+    width: 100%;
+    text-align: center;
+}
+
+#loginCard p {
+    margin: 10px 0;
+}
+
+#loginCard button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+#loginCard button:hover {
+    background-color: #2980b9;
+}
+
+/* Estilos para o botão que exibe o cartão */
+.menu-item a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.menu-item a:hover {
+    color: #3498db;
+}
+
+
+#user-info img {
+    margin-right: 20px;
+    width: 50px;
+    height: auto;
+    border-radius: 50%;
+}
+h1 {
+    font-family: 'Courier New', monospace; /* Substitua 'Courier New' pela fonte que preferir */
+}
+.title-container {
+    display: flex;
+    align-items: center;
+}
+
+.blinking-cursor {
+    animation: blink 1s step-end infinite;
+    margin-left: 5px; /* Ajuste a margem para controlar o espaço entre o título e o cursor */
+    font-size: 50px; /* Ajuste o tamanho da fonte para aumentar a largura do cursor */
+    transform: scaleX(4); 
+    color: #fa2e59;
+}
+
+@keyframes blink {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
+ #user-info {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 25px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    transition: transform 0.3s ease-in-out;
+}
+
+#user-info:hover {
+    transform: scale(1.05);
+}
+
+#user-info h6 {
+    margin: 0;
+}
+
+#user-info button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+#user-info button:hover {
+    transform: scale(1.1);
+}
+
+#user-info button span {
+    margin-left: 10px;
+}
+
+#user-info button img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.logout-button {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 10px;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 25px;
+    background-color: #4CAF50;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.logout-button:hover {
+    background-color: #45a049;
+}

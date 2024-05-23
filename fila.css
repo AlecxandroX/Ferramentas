@@ -1,0 +1,156 @@
+/* Estilo do corpo da página */
+body {
+    background-color: #1a1a1a;
+    color: #fff;
+    font-family: 'Courier New', monospace;
+    padding: 20px;
+}
+
+/* Estilo do cabeçalho principal */
+h1 {
+    text-align: center;
+    font-size: 36px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    margin-top: 0;
+}
+
+/* Estilo dos botões */
+.btn {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: 2px solid #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border: 2px solid #0056b3;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border: 2px solid #dc3545;
+}
+
+.btn-danger:hover {
+    background-color: #b32030;
+    border: 2px solid #b32030;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border: 2px solid #28a745;
+}
+
+.btn-success:hover {
+    background-color: #1e7e34;
+    border: 2px solid #1e7e34;
+}
+
+/* Estilo da lista de clientes na fila */
+.list-group-item {
+    background-color: #333;
+    border: 1px solid #444;
+    color: #fff;
+    margin: 2px;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.list-group-item span {
+    font-family: 'Courier New', monospace;
+    padding: 5px;
+    background-color: #000;
+    color: #0f0;
+}
+
+.list-group-item-warning {
+    background-color: #f0ad4e;
+    border: 1px solid #eea236;
+    color: #333;
+}
+/* Estilo do cursor */
+.cursor {
+    display: inline-block;
+    width: 8px;
+    height: 20px;
+    background-color: #fff;
+    animation: cursorBlink 1s infinite;
+}
+
+@keyframes cursorBlink {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
+
+/* Estilo do nome do usuário */
+.user-name {
+    font-family: 'Courier New', monospace;
+    color: #0f0;
+}
+
+/* Animação da digitação */
+@keyframes typingAnimation {
+    from {
+        width: 0;
+    }
+}
+
+.user-name {
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typingAnimation 2s steps(40, end) forwards;
+}
+/* fila.css */
+.linha-comando-animacao {
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: .15em solid orange; /* Simula o cursor piscando */
+    animation: digitar 1s steps(40) infinite;
+}
+
+@keyframes digitar {
+    to {
+        width: 100%;
+    }
+}
+/* fila.css */
+.linha-comando-animacao {
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: .15em solid orange; /* Simula o cursor piscando */
+    animation: digitar 1s steps(40) infinite;
+}
+
+@keyframes digitar {
+    to {
+        width: 100%;
+    }
+}
+/* fila.css */
+.linha-comando-animacao {
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: .15em solid orange; /* Simula o cursor piscando */
+    animation: digitar 1s steps(40) infinite;
+}
+
+@keyframes digitar {
+    to {
+        width: 100%;
+    }
+}
+
+
